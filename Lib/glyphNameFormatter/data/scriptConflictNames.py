@@ -198,7 +198,7 @@ scriptConflictNames = [
     "iisign",
     "imacron",
     "iota",
-    "iotasubscript",
+    "iotasub",
     "isign",
     "ismall",
     "isshar",

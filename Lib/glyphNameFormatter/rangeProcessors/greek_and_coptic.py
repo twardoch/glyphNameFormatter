@@ -8,7 +8,7 @@ def process(self):
     self.edit("PAMPHYLIAN", "pamphylian")
 
     # following the AGD list
-    self.edit("YPOGEGRAMMENI", "iotasubscript")
+    #self.edit("YPOGEGRAMMENI", "iotasubscript")
     # could also be
     # self.edit("YPOGEGRAMMENI", "iotalenissubscript")
     # self.edit("YPOGEGRAMMENI", "ypogegrammeni")

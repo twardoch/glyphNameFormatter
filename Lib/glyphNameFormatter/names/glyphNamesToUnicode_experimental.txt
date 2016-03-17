@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.1 - git commit: 339
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/6619c40
+# GlyphNameFormatter version 0.1 - git commit: 343
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/7a33161
 
-# Generated on 2016 03 16 15:36:28
+# Generated on 2016 03 17 08:51:12
 # <glyphName> <hex unicode>
 #
 # Basic Latin
@@ -197,6 +197,7 @@ ucircumflex 00FB
 udieresis 00FC
 yacute 00FD
 thorn 00FE
+ydieresis 00FF
 # Latin Extended-A
 Amacron 0100
 amacron 0101
@@ -325,6 +326,7 @@ Zdotaccent 017B
 zdotaccent 017C
 Zcaron 017D
 zcaron 017E
+longs 017F
 # Latin Extended-B
 bstroke 0180
 Bhook 0181
@@ -533,6 +535,7 @@ qhooktail 024B
 Rstroke 024C
 rstroke 024D
 Ystroke 024E
+ystroke 024F
 # IPA Extensions
 aturned 0250
 ipa-alpha 0251
@@ -629,6 +632,7 @@ lzed 02AB
 percussivebilabial 02AC
 percussivebidental 02AD
 hfishhookturned 02AE
+handtailfishhookturned 02AF
 # Spacing Modifier Letters
 hsupmod 02B0
 hhooksupmod 02B1
@@ -709,6 +713,7 @@ tonelowbeginmod 02FB
 tonelowendmod 02FC
 shelfmod 02FD
 shelfopenmod 02FE
+arrowleftlowmod 02FF
 # Combining Diacritical Marks
 cmb-gravecomb 0300
 cmb-acutecomb 0301
@@ -779,7 +784,7 @@ cmb-acutetone 0341
 cmb-perispomeni 0342
 cmb-koronis 0343
 cmb-dialytikatonos 0344
-cmb-iotasubscript 0345
+cmb-iotasub 0345
 cmb-bridgeabove 0346
 cmb-equalbelow 0347
 cmb-dblverticallinebelow 0348
@@ -821,6 +826,7 @@ cmb-m 036B
 cmb-r 036C
 cmb-t 036D
 cmb-v 036E
+cmb-x 036F
 # Greek and Coptic
 Heta 0370
 heta 0371
@@ -830,7 +836,7 @@ numeralsign 0374
 lownumeralsign 0375
 Digammapamphylian 0376
 digammapamphylian 0377
-iotasubscript 037A
+iotasub 037A
 sigmalunatereversedsymbol 037B
 sigmalunatedottedsymbol 037C
 sigmalunatedottedreversedsymbol 037D
@@ -956,6 +962,7 @@ san 03FB
 rhostrokesymbol 03FC
 Sigmareversedlunatesymbol 03FD
 Sigmalunatesymboldotted 03FE
+Reverseddottedsigmalunatesymbol 03FF
 # Cyrillic
 Iegravecyr 0400
 Iocyr 0401
@@ -1212,6 +1219,7 @@ gehookstrokecyr 04FB
 Hahookcyr 04FC
 hahookcyr 04FD
 Hastrokecyr 04FE
+hastrokecyr 04FF
 # Cyrillic Supplement
 Dekomicyr 0500
 dekomicyr 0501
@@ -1260,6 +1268,7 @@ dzzhecyr 052B
 Dchecyr 052C
 dchecyr 052D
 Eltailcyr 052E
+eltailcyr 052F
 # Armenian
 armn-Ayb 0531
 armn-Ben 0532
@@ -1349,6 +1358,7 @@ armn-period 0589
 armn-hyphen 058A
 armn-rightfacingeternitysign 058D
 armn-leftfacingeternitysign 058E
+armn-DRAMSIGN 058F
 # Hebrew
 etnahta-hb 0591
 segolta-hb 0592
@@ -1692,6 +1702,7 @@ daddotbelow 06FB
 ghaindotbelow 06FC
 ampersandSindhi 06FD
 menpostSindhi 06FE
+hehinvertedV 06FF
 # Arabic Supplement
 BehThreeDotsHorizontallyBelow 0750
 BehDotBelowAndThreeDotSAbove 0751
@@ -1740,6 +1751,7 @@ YehBarreeDigitThreeAbove 077B
 HahDigitFourBelow 077C
 SeenDigitFourAbove 077D
 SeenInvertedV 077E
+KafTwoDotsAbove 077F
 # Devanagari
 deva-candrabinduinverted 0900
 deva-candrabindu 0901
@@ -1868,6 +1880,7 @@ deva-gga 097B
 deva-jja 097C
 deva-glottalstop 097D
 deva-ddda 097E
+deva-bba 097F
 # Bengali
 beng-anji 0980
 beng-candrabindu 0981
@@ -2388,6 +2401,7 @@ telu-fractionthreeforoddpowersoffour 0C7B
 telu-fractiononeforevenpowersoffour 0C7C
 telu-fractiontwoforevenpowersoffour 0C7D
 telu-fractionthreeforevenpowersoffour 0C7E
+telu-tuumusign 0C7F
 # Kannada
 knda-signcandrabindu 0C81
 knda-anusvara 0C82
@@ -2576,6 +2590,7 @@ mlym-nchillu 0D7B
 mlym-rrchillu 0D7C
 mlym-lchillu 0D7D
 mlym-llchillu 0D7E
+mlym-kchillu 0D7F
 # Sinhala
 sinh-anusvaraya 0D82
 sinh-visargaya 0D83
@@ -3223,6 +3238,7 @@ ko-kiyeokpieupjongseong 11FB
 ko-kiyeokchieuchjongseong 11FC
 ko-kiyeokkhieukhjongseong 11FD
 ko-kiyeokhieuhjongseong 11FE
+ko-ssangnieunjongseong 11FF
 # Ethiopic
 ethi-ha 1200
 ethi-hu 1201
@@ -4008,7 +4024,7 @@ phon-gr-Lambdasmall 1D27
 phon-gr-Pismall 1D28
 phon-gr-RsmallHO 1D29
 phon-gr-Psismall 1D2A
-phon-ELsmallcyr 1D2B
+phon-Elsmallcyr 1D2B
 phon-Amod 1D2C
 phon-Aemod 1D2D
 phon-Bmod 1D2E
@@ -4092,6 +4108,7 @@ phon-Ismallstroke 1D7B
 phon-iotastroke 1D7C
 phon-pstroke 1D7D
 phon-Usmallstroke 1D7E
+phon-upsilonstroke 1D7F
 # Phonetic Extensions Supplement
 phon-bpalatalhook 1D80
 phon-dpalatalhook 1D81
@@ -4156,6 +4173,7 @@ phon-zmod 1DBB
 phon-zretroflexhookmod 1DBC
 phon-zcurlmod 1DBD
 phon-ezhmod 1DBE
+phon-thetamod 1DBF
 # Combining Diacritical Marks Supplement
 dottedaccentgravecmb 1DC0
 dottedaccentacutecmb 1DC1
@@ -4214,6 +4232,7 @@ uptackabovecmb 1DF5
 doubleinvertedbelowbrevecmb 1DFC
 almostequaltobelowcmb 1DFD
 leftarrowheadabovecmb 1DFE
+rightarrowheadanddownarrowheadbelowcmb 1DFF
 # Latin Extended Additional
 Aringbelow 1E00
 aringbelow 1E01
@@ -4470,6 +4489,7 @@ llwelsh 1EFB
 Vwelsh 1EFC
 vwelsh 1EFD
 Yloop 1EFE
+yloop 1EFF
 # Greek Extended
 alphalenis 1F00
 alphaasper 1F01
@@ -4585,14 +4605,14 @@ upsilongrave 1F7A
 upsilonacute 1F7B
 omegagrave 1F7C
 omegaacute 1F7D
-alphalenisandiotasubscript 1F80
-alphaasperandiotasubscript 1F81
-alphalenisgraveandiotasubscript 1F82
-alphaaspergraveandiotasubscript 1F83
-alphalenisacuteandiotasubscript 1F84
-alphaasperacuteandiotasubscript 1F85
-alphalenistildeandiotasubscript 1F86
-alphaaspertildeandiotasubscript 1F87
+alphalenisiotasub 1F80
+alphaasperiotasub 1F81
+alphalenisgraveiotasub 1F82
+alphaaspergraveiotasub 1F83
+alphalenisacuteiotasub 1F84
+alphaasperacuteiotasub 1F85
+alphalenistildeiotasub 1F86
+alphaaspertildeiotasub 1F87
 Alphalenisiotasub 1F88
 Alphaasperiotasub 1F89
 Alphalenisgraveiotasub 1F8A
@@ -4601,14 +4621,14 @@ Alphalenisacuteiotasub 1F8C
 Alphaasperacuteiotasub 1F8D
 Alphalenistildeiotasub 1F8E
 Alphaaspertildeiotasub 1F8F
-etalenisandiotasubscript 1F90
-etaasperandiotasubscript 1F91
-etalenisgraveandiotasubscript 1F92
-etaaspergraveandiotasubscript 1F93
-etalenisacuteandiotasubscript 1F94
-etaasperacuteandiotasubscript 1F95
-etalenistildeandiotasubscript 1F96
-etaaspertildeandiotasubscript 1F97
+etalenisiotasub 1F90
+etaasperiotasub 1F91
+etalenisgraveiotasub 1F92
+etaaspergraveiotasub 1F93
+etalenisacuteiotasub 1F94
+etaasperacuteiotasub 1F95
+etalenistildeiotasub 1F96
+etaaspertildeiotasub 1F97
 Etalenisiotasub 1F98
 Etaasperiotasub 1F99
 Etalenisgraveiotasub 1F9A
@@ -4617,14 +4637,14 @@ Etalenisacuteiotasub 1F9C
 Etaasperacuteiotasub 1F9D
 Etalenistildeiotasub 1F9E
 Etaaspertildeiotasub 1F9F
-omegalenisandiotasubscript 1FA0
-omegaasperandiotasubscript 1FA1
-omegalenisgraveandiotasubscript 1FA2
-omegaaspergraveandiotasubscript 1FA3
-omegalenisacuteandiotasubscript 1FA4
-omegaasperacuteandiotasubscript 1FA5
-omegalenistildeandiotasubscript 1FA6
-omegaaspertildeandiotasubscript 1FA7
+omegalenisiotasub 1FA0
+omegaasperiotasub 1FA1
+omegalenisgraveiotasub 1FA2
+omegaaspergraveiotasub 1FA3
+omegalenisacuteiotasub 1FA4
+omegaasperacuteiotasub 1FA5
+omegalenistildeiotasub 1FA6
+omegaaspertildeiotasub 1FA7
 Omegalenisiotasub 1FA8
 Omegaasperiotasub 1FA9
 Omegalenisgraveiotasub 1FAA
@@ -4635,26 +4655,26 @@ Omegalenistildeiotasub 1FAE
 Omegaaspertildeiotasub 1FAF
 alphabreve 1FB0
 alphawithmacron 1FB1
-alphagraveandiotasubscript 1FB2
-alphawithiotasubscript 1FB3
-alphaacuteandiotasubscript 1FB4
+alphagraveiotasub 1FB2
+alphaiotasub 1FB3
+alphaacuteiotasub 1FB4
 alphatilde 1FB6
-alphatildeandiotasubscript 1FB7
+alphatildeiotasub 1FB7
 Alphabreve 1FB8
 Alphawithmacron 1FB9
 Alphagrave 1FBA
 Alphaacute 1FBB
 Alphaiotasub 1FBC
 KORONIS 1FBD
-iotasub 1FBE
+iotaadscript 1FBE
 lenis 1FBF
 gr-tilde 1FC0
 dieresistilde 1FC1
-etagraveandiotasubscript 1FC2
-etawithiotasubscript 1FC3
-etaacuteandiotasubscript 1FC4
+etagraveiotasub 1FC2
+etaiotasub 1FC3
+etaacuteiotasub 1FC4
 etatilde 1FC6
-etatildeandiotasubscript 1FC7
+etatildeiotasub 1FC7
 Epsilongrave 1FC8
 Epsilonacute 1FC9
 Etagrave 1FCA
@@ -4692,11 +4712,11 @@ Rhoasper 1FEC
 dieresisgrave 1FED
 dieresisacute 1FEE
 gr-grave 1FEF
-omegagraveandiotasubscript 1FF2
-omegawithiotasubscript 1FF3
-omegaacuteandiotasubscript 1FF4
+omegagraveiotasub 1FF2
+omegaiotasub 1FF3
+omegaacuteiotasub 1FF4
 omegatilde 1FF6
-omegatildeandiotasubscript 1FF7
+omegatildeiotasub 1FF7
 Omicrongrave 1FF8
 Omicronacute 1FF9
 Omegagrave 1FFA
@@ -4815,6 +4835,7 @@ activatesymmetricswapping 206B
 inhibitarabicformshaping 206C
 activatearabicformshaping 206D
 nationaldigitshapes 206E
+nominaldigitshapes 206F
 # Superscripts and Subscripts
 zero.superior 2070
 i.superior 2071
@@ -4970,6 +4991,7 @@ ampersandturned 214B
 per 214C
 aktieselskab 214D
 fturned 214E
+forsamaritan 214F
 # Number Forms
 oneseventh 2150
 oneninth 2151
@@ -5143,6 +5165,7 @@ verticalsdbltrokearrowright 21FB
 verticalsdbltrokearrowleftright 21FC
 openheadarrowleft 21FD
 openheadarrowright 21FE
+openheadarrowleftright 21FF
 # Mathematical Operators
 universal 2200
 complement 2201
@@ -5399,6 +5422,7 @@ containsverticalbarhorizontalstroke 22FB
 containssmallverticalbarhorizontalstroke 22FC
 containsoverbar 22FD
 containsoverbarsmall 22FE
+znotationbagmembership 22FF
 # Miscellaneous Technical
 diametersign 2300
 electricarrow 2301
@@ -5863,6 +5887,7 @@ sevencircledbl 24FB
 eightcircledbl 24FC
 ninecircledbl 24FD
 tencircledbl 24FE
+zerocircleblack 24FF
 # Box Drawing
 lighthorz 2500
 heavyhorz 2501
@@ -5991,6 +6016,7 @@ heavydn 257B
 lightleftheavyright 257C
 lightupheavydn 257D
 heavyleftlightright 257E
+heavyuplightdn 257F
 # Block Elements
 upperhalfblock 2580
 loweroneeighthblock 2581
@@ -6023,6 +6049,7 @@ quadrantupperleftupperrightlowerleft 259B
 quadrantupperleftupperrightlowerright 259C
 quadrantupperright 259D
 quadrantupperrightlowerleft 259E
+quadrantupperrightlowerleftlowerright 259F
 # Geometric Shapes
 squareblack 25A0
 squarewhite 25A1
@@ -6119,6 +6146,7 @@ squaremediumwhite 25FB
 squaremediumblack 25FC
 squaresmallmediumwhite 25FD
 squaresmallmediumblack 25FE
+lowertriangleright 25FF
 # Miscellaneous Symbols
 sunraysblack 2600
 cloud 2601
@@ -6375,6 +6403,7 @@ japanesebank 26FB
 headstonegraveyard 26FC
 fuelpump 26FD
 consquareupblack 26FE
+flaghorizontalmiddlestripeblackwhite 26FF
 # Dingbats
 dngb-safetyscissorsblack 2700
 dngb-scissorsupperblade 2701
@@ -6567,6 +6596,7 @@ dngb-arrowteardroprightheavy 27BB
 dngb-arrowrightwedge 27BC
 dngb-arrowrightwedgeheavy 27BD
 dngb-arrowrightoutlinedopen 27BE
+dngb-curlyloopdouble 27BF
 # Miscellaneous Mathematical Symbols-A
 threedimensionalangle 27C0
 tricontainingtriwhiteanglesmall 27C1
@@ -6615,6 +6645,7 @@ bracketangledblright 27EB
 bracketshellwhiteleft 27EC
 bracketshellwhiteright 27ED
 parenflatleft 27EE
+parenflatright 27EF
 # Latin Extended-C
 Ldblbar 2C60
 ldblbar 2C61
@@ -6647,6 +6678,7 @@ Esmallturned 2C7B
 j.inferior 2C7C
 Vmod 2C7D
 Sswashtail 2C7E
+Zswashtail 2C7F
 # Supplemental Punctuation
 anglemarkersubstitutionright 2E00
 anglemarkerdottedsubstitutionright 2E01
@@ -6779,6 +6811,7 @@ verticalideographiciterationmark 303B
 masumark 303C
 partalternationmark 303D
 ideographicvariationindicator 303E
+ideographichalffillspace 303F
 # Hiragana
 hira-asmall 3041
 hira-a 3042
@@ -6872,6 +6905,7 @@ hira-voicedmarkkana 309B
 hira-semivoicedmarkkana 309C
 hira-iterationhiragana 309D
 hira-voicediterationhiragana 309E
+hira-digraphyori 309F
 # Katakana
 kata-doublehyphenkana 30A0
 kata-asmall 30A1
@@ -6968,6 +7002,7 @@ kata-middledot 30FB
 kata-prolongedkana 30FC
 kata-iteration 30FD
 kata-voicediteration 30FE
+kata-digraphkoto 30FF
 # Bopomofo
 bopo-b 3105
 bopo-p 3106
@@ -7616,6 +7651,7 @@ daytwentyeighttelegraph 33FB
 daytwentyninetelegraph 33FC
 daythirtytelegraph 33FD
 daythirtyonetelegraph 33FE
+galsquare 33FF
 # Latin Extended-D
 stresstonemod A720
 stresslowtonemod A721
@@ -7775,6 +7811,7 @@ freversedepigraphic A7FB
 preversedepigraphic A7FC
 mepigraphicinverted A7FD
 iaepigraphic A7FE
+archaicmepigraphic A7FF
 # Javanese
 panyangga A980
 cecak A981
@@ -7866,6 +7903,7 @@ java-seven A9D7
 java-eight A9D8
 java-nine A9D9
 tirtatumetespada A9DE
+isen-isenpada A9DF
 # Latin Extended-E
 redalphabar AB30
 areversedschwa AB31
@@ -8001,6 +8039,7 @@ chrk-wismall ABBB
 chrk-wosmall ABBC
 chrk-wusmall ABBD
 chrk-wvsmall ABBE
+chrk-yasmall ABBF
 # Private Use Area
 # Alphabetic Presentation Forms
 f_f FB00
@@ -8060,6 +8099,7 @@ vavwithholam-hb FB4B
 betwithrafe-hb FB4C
 kafwithrafe-hb FB4D
 pehwithrafe-hb FB4E
+ligaturealeflamed-hb FB4F
 # Arabic Presentation Forms-A
 alefwasla.isol FB50
 alefwasla.fina FB51
@@ -8715,6 +8755,7 @@ overlinewavy FE4B
 overlinedblwavy FE4C
 underscoredashed FE4D
 underscorecenterline FE4E
+underscorewavy FE4F
 # Small Form Variants
 smll-comma FE50
 smll-ideographiccomma FE51
@@ -8883,6 +8924,7 @@ lam.init_alef.medi_hamzabelow.fina FEF9
 lam.medi_alef.medi_hamzabelow.fina FEFA
 lam.init_alef.fina FEFB
 lam.medi_alef.fina FEFC
+zerowidthnobreakspace FEFF
 # Halfwidth and Fullwidth Forms
 fwd-exclam FF01
 fwd-quotedbl FF02
@@ -9472,6 +9514,7 @@ regionalindicatorsymbolletterv 1F1FB
 regionalindicatorsymbolletterw 1F1FC
 regionalindicatorsymbolletterx 1F1FD
 regionalindicatorsymbollettery 1F1FE
+regionalindicatorsymbolletterz 1F1FF
 # Emoticons
 grinning_face 1F600
 grinning_face_with_smiling_eyes 1F601
@@ -9552,3 +9595,4 @@ happy_person_raising_one_hand 1F64B
 person_raising_both_hands_in_celebration 1F64C
 person_frowning 1F64D
 person_with_pouting_face 1F64E
+person_with_folded_hands 1F64F

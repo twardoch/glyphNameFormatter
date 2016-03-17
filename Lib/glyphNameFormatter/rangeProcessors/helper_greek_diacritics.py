@@ -3,7 +3,7 @@ def process(self):
 
     parts = {
         'PROSGEGRAMMENI'    :   "iotasub",
-        'YPOGEGRAMMENI'     :   "iotasub", # XX really?
+        'YPOGEGRAMMENI'     :   "iotasub",
         'PERISPOMENI'       :   "tilde",
         'VARIA'             :   "grave",
         'PSILI'             :   "lenis",
@@ -24,4 +24,6 @@ def process(self):
 
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange
+    from glyphNameFormatter.tools import debug
     printRange("Greek Extended")
+    debug(0x1FF2)

@@ -3,7 +3,7 @@ def process(self):
     self.edit("GREEK PERISPOMENI", "perispomeni")
     self.edit("GREEK KORONIS", "koronis")
     self.edit("GREEK DIALYTIKA TONOS", "dialytikatonos")
-    self.edit("GREEK YPOGEGRAMMENI", "iotasubscript")
+    self.edit("GREEK YPOGEGRAMMENI", "iotasub")
 
     self.edit("INVERTED DOUBLE ARCH", 'dblarchinverted')
     self.edit("COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD", "arrowheadrightarrowheadup")
