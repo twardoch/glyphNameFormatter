@@ -167,7 +167,7 @@ charnameStartToPrefixMap = {
     'BUGINESE': 'bugi',
     'BUHID': 'buhd', 
     'CANADIAN SYLLABICS': 'cans',
-    'CARIAN': 'cari',
+    'CARIAN': 'cari', 
     'CAUCASIAN ALBANIAN': 'aghb',
     'CHAKMA': 'cakm', 
     'CHAM': 'cham', 
