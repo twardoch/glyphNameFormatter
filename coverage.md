@@ -59,7 +59,7 @@ This coverage page is has some issues.
 | Cherokee | **92** | **Yes** | `13A0` | `13FF` |
 | Unified Canadian Aboriginal Syllabics | 639 | No | `1400` | `167F` |
 | Ogham | 29 | No | `1680` | `169F` |
-| Runic | 89 | No | `16A0` | `16FF` |
+| Runic | **89** | **Yes** | `16A0` | `16FF` |
 | Tagalog | 20 | No | `1700` | `171F` |
 | Hanunoo | 23 | No | `1720` | `173F` |
 | Buhid | 20 | No | `1740` | `175F` |
@@ -158,7 +158,7 @@ This coverage page is has some issues.
 | Tai Viet | 71 | No | `AA80` | `AADF` |
 | Meetei Mayek Extensions | 23 | No | `AAE0` | `AAFF` |
 | Ethiopic Extended-A | 32 | No | `AB00` | `AB2F` |
-| Latin Extended-E | 54 | No | `AB30` | `AB6F` |
+| Latin Extended-E | **54** | **Yes** | `AB30` | `AB6F` |
 | Cherokee Supplement | **79** | **Yes** | `AB70` | `ABBF` |
 | Meetei Mayek | 56 | No | `ABC0` | `ABFF` |
 | Hangul Syllables | 11172 | No | `AC00` | `D7AF` |
@@ -260,7 +260,7 @@ This coverage page is has some issues.
 | Arabic Mathematical Alphabetic Symbols | 143 | No | `1EE00` | `1EEFF` |
 | Mahjong Tiles | 44 | No | `1F000` | `1F02F` |
 | Domino Tiles | **100** | **Yes** | `1F030` | `1F09F` |
-| Playing Cards | 82 | No | `1F0A0` | `1F0FF` |
+| Playing Cards | **82** | **Yes** | `1F0A0` | `1F0FF` |
 | Enclosed Alphanumeric Supplement | **172** | **Yes** | `1F100` | `1F1FF` |
 | Enclosed Ideographic Supplement | 57 | No | `1F200` | `1F2FF` |
 | Miscellaneous Symbols and Pictographs | 765 | No | `1F300` | `1F5FF` |

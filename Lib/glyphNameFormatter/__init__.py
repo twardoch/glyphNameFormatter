@@ -7,6 +7,7 @@ from data import unicodelist
 from data.scriptConflictNames import scriptConflictNames
 from data.preferredAGLNames import preferredAGLNames
 from data.scriptPrefixes import scriptPrefixes, addScriptPrefix, SCRIPTSEPARATOR, SCRIPTASPREFIX
+from data.mathUniNumbers import mathUniNumbers
 
 from unicodeRangeNames import getRangeName, getRangeProcessor, getRangeProcessorByRangeName
 
@@ -37,6 +38,7 @@ class GlyphName(object):
         self.uniName = ""
         self.uniNameProcessed = self.uniName
         self.uniRangeName = "No Range"
+        self.isMath = False # is this a math symbol
         self.scriptTag = ""
         if scriptSeparator is None:
             scriptSeparator = SCRIPTSEPARATOR
@@ -87,6 +89,8 @@ class GlyphName(object):
         except:
             print("GlyphName valueerror for %04X" % self.uniNumber)
             return
+        if self.uniNumber in mathUniNumbers:
+            self.isMath = True
         try:
             # self.uniName = unicodedata.name(self.uniLetter)
             self.uniName = unicodelist.get(self.uniNumber)
